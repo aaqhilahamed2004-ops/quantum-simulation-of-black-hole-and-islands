@@ -47,27 +47,23 @@ An "island" `I` is a region inside the black hole whose entropy, when added to t
 ---
 
 ## Repository Structure
-
 ```
-black-hole-quantum-simulation/
+quantum-simulation-of-black-hole-and-islands/
 │
-├── README.md                                            ← This file
+├── README.md                                         ← This file
+├── LICENSE                                           ← MIT License
+├── Quantum_Simulation_of_Black_Hole_Information_Paradox(2025).pdf  ← Full technical report
 │
-├── page_curve_project/                                  ← Main simulation series
-│   ├── v01_minimal_scrambling.ipynb                     ← Baseline: 2-qubit CNOT scrambler
-│   ├── v4_5_multi_layer_random_rotations.ipynb          ← 3-layer scrambler, RX/RY/RZ rotations
-│   ├── v6_0_deeper_scrambling_longrange.ipynb           ← 5-layer scrambler + long-range CX
-│   ├── v6_1_scaling_8q.ipynb                            ← Scaling test: 8 qubits, 15 layers
-│   ├── v6_3_sclaing_12q.ipynb                           ← Scaling test: 12 qubits
-│   ├── v6_4_sclaing_14q.ipynb                           ← Scaling test: 14 qubits
-│   ├── v8_diverse_gates_circuit_viz.ipynb               ← Diverse gate set (CX+CZ+CY+SWAP), circuit visualization
-│   ├── v11_island_mechanism_first.ipynb                 ← Island formula first implementation
-│   └── v14_echo_coupling_island_formula.ipynb           ← Echo coupling + full island-corrected plotting
-│
-└── notes/
-    └── version_history.md                               ← Detailed changelog (this document's appendix)
+├── v01_minimal_scrambling.ipynb                      ← Baseline: 2-qubit CNOT scrambler
+├── v04_5_multi_layer_random_rotations.ipynb          ← 3-layer scrambler, RX/RY/RZ rotations
+├── v06_0_deeper_scrambling_longrange.ipynb           ← 5-layer scrambler + long-range CX
+├── v06_1_scaling_8q.ipynb                            ← Scaling test: 8 qubits, 15 layers
+├── v06_3_scaling_12q.ipynb                           ← Scaling test: 12 qubits
+├── v06_4_scaling_14q.ipynb                           ← Scaling test: 14 qubits
+├── v08_diverse_gates_circuit_viz.ipynb               ← Diverse gate set (CX+CZ+CY+SWAP), circuit visualization
+├── v11_island_mechanism_first.ipynb                  ← Island formula first implementation
+└── v14_echo_coupling_island_formula.ipynb            ← Echo coupling + full island-corrected plotting
 ```
-
 ---
 
 ## Version History

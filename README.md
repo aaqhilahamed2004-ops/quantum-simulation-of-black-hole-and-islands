@@ -61,15 +61,15 @@ black-hole-quantum-simulation/
 │   ├── v01_minimal_scrambling.ipynb                     ← Baseline: 2-qubit CNOT scrambler
 │   ├── v4_5_multi_layer_random_rotations.ipynb          ← 3-layer scrambler, RX/RY/RZ rotations
 │   ├── v6_0_deeper_scrambling_longrange.ipynb           ← 5-layer scrambler + long-range CX
-│   ├── v6_1_scaling_8q.ipynb                                    ← Scaling test: 8 qubits, 15 layers
-│   ├── v6_3_sclaing_12q.ipynb                                   ← Scaling test: 12 qubits
-│   ├── v6_4_sclaing_14q.ipynb                                   ← Scaling test: 14 qubits
-│   ├── v8_diverse_gates_circuit_viz.ipynb                           ← Diverse gate set (CX+CZ+CY+SWAP), circuit visualization
-│   ├── v11_island_mechanism_first.ipynb                       ← Island formula first implementation
-│   └── v14_echo_coupling_island_formula.ipynb                          ← Echo coupling + full island-corrected plotting
+│   ├── v6_1_scaling_8q.ipynb                            ← Scaling test: 8 qubits, 15 layers
+│   ├── v6_3_sclaing_12q.ipynb                           ← Scaling test: 12 qubits
+│   ├── v6_4_sclaing_14q.ipynb                           ← Scaling test: 14 qubits
+│   ├── v8_diverse_gates_circuit_viz.ipynb               ← Diverse gate set (CX+CZ+CY+SWAP), circuit visualization
+│   ├── v11_island_mechanism_first.ipynb                 ← Island formula first implementation
+│   └── v14_echo_coupling_island_formula.ipynb           ← Echo coupling + full island-corrected plotting
 │
 └── notes/
-    └── version_history.md             ← Detailed changelog (this document's appendix)
+    └── version_history.md                               ← Detailed changelog (this document's appendix)
 ```
 
 ---

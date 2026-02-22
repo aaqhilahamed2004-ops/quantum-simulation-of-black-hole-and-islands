@@ -55,18 +55,18 @@ An "island" `I` is a region inside the black hole whose entropy, when added to t
 ```
 black-hole-quantum-simulation/
 │
-├── README.md                          ← This file
+├── README.md                                            ← This file
 │
-├── page_curve_project/                ← Main simulation series
-│   ├── v1_minimal_scrambler.ipynb     ← Baseline: 2-qubit CNOT scrambler
-│   ├── v4_5_multi_layer.ipynb         ← 3-layer scrambler, RX/RY/RZ rotations
-│   ├── v6_0_deeper_scrambling.ipynb   ← 5-layer scrambler + long-range CX
-│   ├── v6_1_8q.ipynb                  ← Scaling test: 8 qubits, 15 layers
-│   ├── v6_3_12q.ipynb                 ← Scaling test: 12 qubits
-│   ├── v6_4_14q.ipynb                 ← Scaling test: 14 qubits
-│   ├── v8_diverse_gates.ipynb         ← Diverse gate set (CX+CZ+CY+SWAP), circuit visualization
-│   ├── v11_island_mechanism.ipynb     ← Island formula first implementation
-│   └── v14_echo_coupling.ipynb        ← Echo coupling + full island-corrected plotting
+├── page_curve_project/                                  ← Main simulation series
+│   ├── v01_minimal_scrambling.ipynb                     ← Baseline: 2-qubit CNOT scrambler
+│   ├── v4_5_multi_layer_random_rotations.ipynb          ← 3-layer scrambler, RX/RY/RZ rotations
+│   ├── v6_0_deeper_scrambling_longrange.ipynb           ← 5-layer scrambler + long-range CX
+│   ├── v6_1_scaling_8q.ipynb                                    ← Scaling test: 8 qubits, 15 layers
+│   ├── v6_3_sclaing_12q.ipynb                                   ← Scaling test: 12 qubits
+│   ├── v6_4_sclaing_14q.ipynb                                   ← Scaling test: 14 qubits
+│   ├── v8_diverse_gates_circuit_viz.ipynb                           ← Diverse gate set (CX+CZ+CY+SWAP), circuit visualization
+│   ├── v11_island_mechanism_first.ipynb                       ← Island formula first implementation
+│   └── v14_echo_coupling_island_formula.ipynb                          ← Echo coupling + full island-corrected plotting
 │
 └── notes/
     └── version_history.md             ← Detailed changelog (this document's appendix)

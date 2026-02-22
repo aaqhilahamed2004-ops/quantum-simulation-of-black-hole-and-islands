@@ -3,7 +3,7 @@
 **Author:** Karamala Aaqhil Ahamed  
 **Research Focus:** Quantum information theory, open quantum systems, entanglement dynamics
 This repository accompanies the technical report:  
-**[Quantum Simulation of the Black Hole Information Paradox (2025)](./your_report_filename.pdf)**  
+**[Quantum Simulation of the Black Hole Information Paradox (2025)] (./Quantum_Simulation_of_Black_Hole_Information_Paradox(2025).pdf)**  
 which documents simulation results, entropy plots, and physical interpretation 
 for each version in detail.
 ---

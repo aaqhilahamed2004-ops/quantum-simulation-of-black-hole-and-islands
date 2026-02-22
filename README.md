@@ -12,7 +12,7 @@ The central question: *Can we reproduce Page-curve behaviour — and eventually 
 
 All simulations run on classical hardware via Qiskit's statevector simulator, treating the full (B+R) system as a pure state and computing subsystem entropies via partial trace.
 
-This repository accompanies the technical report: [**"Quantum Simulation of the Black Hole Information Paradox"** (2025)] (./Quantum_Simulation_of_Black_Hole_Information_Paradox(2025).pdf), which documents simulation results, entropy plots, and physical interpretation for each version in detail.
+This repository accompanies the technical report: [**"Quantum Simulation of the Black Hole Information Paradox"(2025)](./Quantum_Simulation_of_Black_Hole_Information_Paradox(2025).pdf)**, which documents simulation results, entropy plots, and physical interpretation for each version in detail.
 
 ---
 

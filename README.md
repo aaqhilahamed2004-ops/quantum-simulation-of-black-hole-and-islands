@@ -260,6 +260,6 @@ pylatexenc  # for circuit diagram rendering (v8+)
 
 ## About
 
-This project was developed independently as part of ongoing self-directed research in quantum information theory, prior to formal graduate study. The simulation work complements theoretical reports on non-Markovian open quantum system models of black hole evaporation (2026) and quantum circuit models of the information paradox (2025).
+This project was developed independently as part of ongoing self-directed research in quantum information theory, before formal graduate study. The simulation work complements quantum circuit models of the information paradox (2025).
 
 For questions or collaboration: **aaqhilahamed2004@gmail.com**
